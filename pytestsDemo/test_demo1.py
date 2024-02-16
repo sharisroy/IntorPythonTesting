@@ -17,9 +17,11 @@ import pytest
 def test_firstProgram():
     print("hello")
 
+
 @pytest.mark.smoke
 def test_firstMethods():
     print("first Methods")
+
 
 @pytest.mark.skip
 def test_Haris():

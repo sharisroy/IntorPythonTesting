@@ -19,6 +19,7 @@ def test_secondMethods():
     assert message == "second Methods", "Test failed because condition do not match"
     # print("second Methods")
 
+
 @pytest.mark.smoke
 def test_Haris():
     print("print from demo 2")
