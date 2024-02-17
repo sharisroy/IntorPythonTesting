@@ -11,10 +11,14 @@
 
 # -k stands for method execution, -s logs in out put, -v stands for more information metadata
 
+# HTML report
+#   1. pip install pytest-html install package
+#   2. run: py.test --html=reportName.html -s -v
+
 import pytest
 
 
-def test_firstProgram():
+def test_firstProgram(setup):
     print("hello")
 
 
@@ -26,3 +30,6 @@ def test_firstMethods():
 @pytest.mark.skip
 def test_Haris():
     print("print from demo 1")
+
+
+
