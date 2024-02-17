@@ -26,7 +26,6 @@ def test_firstProgram(setup):
 def test_firstMethods():
     print("first Methods")
 
-
 @pytest.mark.skip
 def test_Haris():
     print("print from demo 1")
